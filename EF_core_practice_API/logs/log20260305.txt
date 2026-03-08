@@ -1,0 +1,152 @@
+2026-03-05 23:38:01.612 +05:30 [INF] Now listening on: https://localhost:7234
+2026-03-05 23:38:01.773 +05:30 [INF] Now listening on: http://localhost:5069
+2026-03-05 23:38:01.904 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-05 23:38:01.906 +05:30 [INF] Hosting environment: Development
+2026-03-05 23:38:01.908 +05:30 [INF] Content root path: C:\Users\WIN11\source\repos\EF_core_practice_API\EF_core_practice_API
+2026-03-05 23:38:02.612 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/ - null null
+2026-03-05 23:38:03.076 +05:30 [INF] Request started GET /
+2026-03-05 23:38:03.087 +05:30 [INF] Request finished GET / -> 404 in 13 ms
+2026-03-05 23:38:03.104 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/ - 404 null null 510.6303ms
+2026-03-05 23:38:03.112 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7234/, Response status code: 404
+2026-03-05 23:38:08.666 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.html - null null
+2026-03-05 23:38:08.791 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.html - 304 null null 125.1954ms
+2026-03-05 23:38:08.805 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui.css - null null
+2026-03-05 23:38:08.805 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.css - null null
+2026-03-05 23:38:08.805 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui-bundle.js - null null
+2026-03-05 23:38:08.831 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui.css - 304 null null 25.8865ms
+2026-03-05 23:38:08.831 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.css - 304 null null 25.819ms
+2026-03-05 23:38:08.833 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui-bundle.js - 304 null null 27.8561ms
+2026-03-05 23:38:08.837 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-05 23:38:08.839 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.js - null null
+2026-03-05 23:38:08.864 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-05 23:38:08.866 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui-standalone-preset.js - 304 null null 28.692ms
+2026-03-05 23:38:08.869 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.js - 304 null null 29.8399ms
+2026-03-05 23:38:08.885 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript; charset=utf-8 20.6319ms
+2026-03-05 23:38:08.904 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/_vs/browserLink - null null
+2026-03-05 23:38:09.012 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/_vs/browserLink - 200 null text/javascript; charset=UTF-8 107.6009ms
+2026-03-05 23:38:09.136 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - null null
+2026-03-05 23:38:09.187 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 50.8867ms
+2026-03-05 23:38:33.032 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/Products?pageNumber=1&pageSize=10 - null null
+2026-03-05 23:38:33.042 +05:30 [INF] Request started GET /api/Products
+2026-03-05 23:38:33.048 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-05 23:38:33.119 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-05 23:38:33.589 +05:30 [INF] fetching All Products
+2026-03-05 23:38:36.875 +05:30 [INF] Executed DbCommand (130ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-05 23:38:36.993 +05:30 [INF] 74 products
+2026-03-05 23:38:37.016 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-05 23:38:37.080 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 3939.2694ms
+2026-03-05 23:38:37.088 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-05 23:38:37.096 +05:30 [INF] Request finished GET /api/Products -> 200 in 4054 ms
+2026-03-05 23:38:37.129 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/Products?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 4097.3033ms
+2026-03-05 23:57:17.299 +05:30 [INF] Now listening on: https://localhost:7234
+2026-03-05 23:57:17.360 +05:30 [INF] Now listening on: http://localhost:5069
+2026-03-05 23:57:17.432 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-05 23:57:17.435 +05:30 [INF] Hosting environment: Development
+2026-03-05 23:57:17.438 +05:30 [INF] Content root path: C:\Users\WIN11\source\repos\EF_core_practice_API\EF_core_practice_API
+2026-03-05 23:57:17.640 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/ - null null
+2026-03-05 23:57:17.886 +05:30 [INF] Request started GET /
+2026-03-05 23:57:17.897 +05:30 [INF] Request finished GET / -> 404 in 15 ms
+2026-03-05 23:57:17.921 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/ - 404 null null 293.5382ms
+2026-03-05 23:57:17.938 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7234/, Response status code: 404
+2026-03-05 23:57:22.086 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.html - null null
+2026-03-05 23:57:22.267 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.html - 304 null null 181.485ms
+2026-03-05 23:57:22.279 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui.css - null null
+2026-03-05 23:57:22.279 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.css - null null
+2026-03-05 23:57:22.279 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui-bundle.js - null null
+2026-03-05 23:57:22.321 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui.css - 304 null null 42.3601ms
+2026-03-05 23:57:22.321 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.css - 304 null null 42.0886ms
+2026-03-05 23:57:22.322 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui-bundle.js - 304 null null 43.0961ms
+2026-03-05 23:57:22.330 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-05 23:57:22.339 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.js - null null
+2026-03-05 23:57:22.353 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-05 23:57:22.363 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui-standalone-preset.js - 304 null null 32.4422ms
+2026-03-05 23:57:22.367 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.js - 304 null null 28.5987ms
+2026-03-05 23:57:22.384 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript; charset=utf-8 31.4225ms
+2026-03-05 23:57:22.394 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/_vs/browserLink - null null
+2026-03-05 23:57:22.472 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/_vs/browserLink - 200 null text/javascript; charset=UTF-8 77.6217ms
+2026-03-05 23:57:22.576 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - null null
+2026-03-05 23:57:22.621 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 44.9558ms
+2026-03-05 23:57:29.006 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.html - null null
+2026-03-05 23:57:29.040 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.html - 304 null null 34.2203ms
+2026-03-05 23:57:29.068 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui.css - null null
+2026-03-05 23:57:29.069 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.css - null null
+2026-03-05 23:57:29.084 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-05 23:57:29.090 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.js - null null
+2026-03-05 23:57:29.090 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui-standalone-preset.js - 304 null null 6.308ms
+2026-03-05 23:57:29.069 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui-bundle.js - null null
+2026-03-05 23:57:29.077 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui.css - 304 null null 9.2828ms
+2026-03-05 23:57:29.085 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.css - 304 null null 15.9372ms
+2026-03-05 23:57:29.101 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-05 23:57:29.101 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.js - 304 null null 11.2642ms
+2026-03-05 23:57:29.104 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/_vs/browserLink - null null
+2026-03-05 23:57:29.116 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui-bundle.js - 304 null null 47.0952ms
+2026-03-05 23:57:29.135 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript; charset=utf-8 34.7013ms
+2026-03-05 23:57:29.164 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.9579ms
+2026-03-05 23:57:29.270 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - null null
+2026-03-05 23:57:29.289 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.0487ms
+2026-03-05 23:57:38.665 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/Products?pageNumber=1&pageSize=10 - null null
+2026-03-05 23:57:38.691 +05:30 [INF] Request started GET /api/Products
+2026-03-05 23:57:38.701 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-05 23:57:38.777 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-05 23:57:39.149 +05:30 [INF] fetching All Products
+2026-03-05 23:57:42.286 +05:30 [INF] Executed DbCommand (112ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-05 23:57:42.633 +05:30 [INF] Executed DbCommand (63ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-03-05 23:57:42.659 +05:30 [INF] Fetched 10 products for page 1
+2026-03-05 23:57:42.684 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-05 23:57:42.734 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 3941.0855ms
+2026-03-05 23:57:42.742 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-05 23:57:42.748 +05:30 [INF] Request finished GET /api/Products -> 200 in 4057 ms
+2026-03-05 23:57:42.770 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/Products?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 4104.9266ms
+2026-03-05 23:58:04.053 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/Products?pageNumber=2&pageSize=15 - null null
+2026-03-05 23:58:04.060 +05:30 [INF] Request started GET /api/Products
+2026-03-05 23:58:04.063 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-05 23:58:04.066 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-05 23:58:04.073 +05:30 [INF] fetching All Products
+2026-03-05 23:58:04.106 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-05 23:58:04.144 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p ROWS ONLY
+2026-03-05 23:58:04.154 +05:30 [INF] Fetched 15 products for page 2
+2026-03-05 23:58:04.159 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-05 23:58:04.166 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 95.254ms
+2026-03-05 23:58:04.171 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-05 23:58:04.176 +05:30 [INF] Request finished GET /api/Products -> 200 in 115 ms
+2026-03-05 23:58:04.184 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/Products?pageNumber=2&pageSize=15 - 200 null application/json; charset=utf-8 131.295ms
+2026-03-05 23:59:40.647 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/Products?pageNumber=100&pageSize=15 - null null
+2026-03-05 23:59:40.657 +05:30 [INF] Request started GET /api/Products
+2026-03-05 23:59:40.661 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-05 23:59:40.666 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-05 23:59:40.684 +05:30 [INF] fetching All Products
+2026-03-05 23:59:40.898 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-05 23:59:40.928 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-03-05 23:59:40.939 +05:30 [INF] Fetched 0 products for page 100
+2026-03-05 23:59:40.945 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-05 23:59:40.952 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 277.4082ms
+2026-03-05 23:59:40.958 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-05 23:59:40.963 +05:30 [INF] Request finished GET /api/Products -> 200 in 306 ms
+2026-03-05 23:59:40.973 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/Products?pageNumber=100&pageSize=15 - 200 null application/json; charset=utf-8 325.2004ms

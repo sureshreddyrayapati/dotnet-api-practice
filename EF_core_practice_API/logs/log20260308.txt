@@ -1,0 +1,93 @@
+2026-03-08 17:32:39.869 +05:30 [INF] Now listening on: https://localhost:7234
+2026-03-08 17:32:39.953 +05:30 [INF] Now listening on: http://localhost:5069
+2026-03-08 17:32:40.119 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-08 17:32:40.124 +05:30 [INF] Hosting environment: Development
+2026-03-08 17:32:40.128 +05:30 [INF] Content root path: C:\Users\WIN11\source\repos\EF_core_practice_API\EF_core_practice_API
+2026-03-08 17:32:43.117 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/ - null null
+2026-03-08 17:32:43.657 +05:30 [INF] Request started GET /
+2026-03-08 17:32:43.675 +05:30 [INF] Request finished GET / -> 404 in 21 ms
+2026-03-08 17:32:43.702 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/ - 404 null null 609.7002ms
+2026-03-08 17:32:43.727 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7234/, Response status code: 404
+2026-03-08 17:32:47.715 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger - null null
+2026-03-08 17:32:47.743 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger - 301 null null 28.3214ms
+2026-03-08 17:32:47.749 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.html - null null
+2026-03-08 17:32:47.952 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.html - 200 null text/html;charset=utf-8 202.6466ms
+2026-03-08 17:32:47.958 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui.css - null null
+2026-03-08 17:32:47.958 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.css - null null
+2026-03-08 17:32:47.959 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui-bundle.js - null null
+2026-03-08 17:32:48.021 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.css - 200 152 text/css 62.5243ms
+2026-03-08 17:32:48.026 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-08 17:32:48.055 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui.css - 200 26248 text/css 96.5857ms
+2026-03-08 17:32:48.087 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui-standalone-preset.js - 200 76581 text/javascript 60.7949ms
+2026-03-08 17:32:48.094 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.js - null null
+2026-03-08 17:32:48.095 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui-bundle.js - 200 416963 text/javascript 135.9632ms
+2026-03-08 17:32:48.125 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-08 17:32:48.133 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.js - 200 null application/javascript;charset=utf-8 39.5018ms
+2026-03-08 17:32:48.138 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/_vs/browserLink - null null
+2026-03-08 17:32:48.158 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript; charset=utf-8 33.5878ms
+2026-03-08 17:32:48.287 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/_vs/browserLink - 200 null text/javascript; charset=UTF-8 149.1454ms
+2026-03-08 17:32:48.372 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - null null
+2026-03-08 17:32:48.404 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.492ms
+2026-03-08 17:33:03.481 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/Products?search=Laptop&pageNumber=1&pageSize=10 - null null
+2026-03-08 17:33:03.502 +05:30 [INF] Request started GET /api/Products
+2026-03-08 17:33:03.513 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-08 17:33:03.600 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-08 17:33:08.227 +05:30 [INF] Executed DbCommand (238ms) [Parameters=[@search_contains='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit) AND [p].[Name] LIKE @search_contains ESCAPE N'\'
+2026-03-08 17:33:08.338 +05:30 [INF] fetching All Products
+2026-03-08 17:33:08.542 +05:30 [INF] Executed DbCommand (33ms) [Parameters=[@search_contains='?' (Size = 100), @p='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit) AND [p].[Name] LIKE @search_contains ESCAPE N'\'
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p2 ROWS ONLY
+2026-03-08 17:33:08.568 +05:30 [INF] Fetched 6 products for page 1
+2026-03-08 17:33:08.598 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-08 17:33:08.647 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 5027.3308ms
+2026-03-08 17:33:08.657 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-08 17:33:08.665 +05:30 [INF] Request finished GET /api/Products -> 200 in 5163 ms
+2026-03-08 17:33:08.695 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/Products?search=Laptop&pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 5214.4073ms
+2026-03-08 17:33:29.208 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/Products?search=Laptop%204&pageNumber=1&pageSize=10 - null null
+2026-03-08 17:33:29.226 +05:30 [INF] Request started GET /api/Products
+2026-03-08 17:33:29.231 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-08 17:33:29.235 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-08 17:33:29.337 +05:30 [INF] Executed DbCommand (28ms) [Parameters=[@search_contains='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit) AND [p].[Name] LIKE @search_contains ESCAPE N'\'
+2026-03-08 17:33:29.349 +05:30 [INF] fetching All Products
+2026-03-08 17:33:29.370 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[@search_contains='?' (Size = 100), @p='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit) AND [p].[Name] LIKE @search_contains ESCAPE N'\'
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p2 ROWS ONLY
+2026-03-08 17:33:29.381 +05:30 [INF] Fetched 1 products for page 1
+2026-03-08 17:33:29.389 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-08 17:33:29.397 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 151.2096ms
+2026-03-08 17:33:29.403 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-08 17:33:29.408 +05:30 [INF] Request finished GET /api/Products -> 200 in 181 ms
+2026-03-08 17:33:29.417 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/Products?search=Laptop%204&pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 209.4173ms
+2026-03-08 17:35:36.516 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/Products?search=Laptop%204&maxPrice=500000&pageNumber=1&pageSize=10 - null null
+2026-03-08 17:35:36.522 +05:30 [INF] Request started GET /api/Products
+2026-03-08 17:35:36.525 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-08 17:35:36.527 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-08 17:35:36.816 +05:30 [INF] Executed DbCommand (46ms) [Parameters=[@search_contains='?' (Size = 100), @maxPrice_Value='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit) AND [p].[Name] LIKE @search_contains ESCAPE N'\' AND [p].[Price] <= @maxPrice_Value
+2026-03-08 17:35:36.826 +05:30 [INF] fetching All Products
+2026-03-08 17:35:36.870 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[@search_contains='?' (Size = 100), @maxPrice_Value='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit) AND [p].[Name] LIKE @search_contains ESCAPE N'\' AND [p].[Price] <= @maxPrice_Value
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p3 ROWS ONLY
+2026-03-08 17:35:36.879 +05:30 [INF] Fetched 1 products for page 1
+2026-03-08 17:35:36.885 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-08 17:35:36.892 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 359.6966ms
+2026-03-08 17:35:36.897 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-08 17:35:36.902 +05:30 [INF] Request finished GET /api/Products -> 200 in 379 ms
+2026-03-08 17:35:36.910 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/Products?search=Laptop%204&maxPrice=500000&pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 393.4531ms
