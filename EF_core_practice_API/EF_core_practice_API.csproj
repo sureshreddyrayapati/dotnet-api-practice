@@ -28,4 +28,8 @@
     <None Include="C:\Users\WIN11\source\repos\EF_core_practice_API\EF_core_practice_API\.editorconfig" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ProductUI\" />
+  </ItemGroup>
+
 </Project>

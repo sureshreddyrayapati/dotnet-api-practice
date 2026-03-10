@@ -17,6 +17,7 @@ namespace EF_core_practice_API.Controllers
             _context = context;
             _logger = logger;
         }
+        [Route("api/Products/GetAll")]
         [HttpGet]
         public async Task<IActionResult> GetAll(string? search,
             decimal? maxPrice,
