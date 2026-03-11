@@ -12,12 +12,11 @@ namespace EF_core_practice_API.Controllers
     {
         private readonly AppDbContext _context;
         private readonly ILogger<ProductsController> _logger;
-        public ProductsController(AppDbContext context,ILogger<ProductsController> logger)
+        public ProductsController(AppDbContext context, ILogger<ProductsController> logger)
         {
             _context = context;
             _logger = logger;
         }
-        [Route("api/Products/GetAll")]
         [HttpGet]
         public async Task<IActionResult> GetAll(string? search,
             decimal? maxPrice,
