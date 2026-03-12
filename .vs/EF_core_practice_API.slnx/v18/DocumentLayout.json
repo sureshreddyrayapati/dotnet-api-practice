@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|c:\\users\\win11\\source\\repos\\ef_core_practice_api\\ef_core_practice_api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|solutionrelative:ef_core_practice_api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|c:\\users\\win11\\source\\repos\\ef_core_practice_api\\ef_core_practice_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|solutionrelative:ef_core_practice_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|c:\\users\\win11\\source\\repos\\ef_core_practice_api\\ef_core_practice_api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|solutionrelative:ef_core_practice_api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|c:\\users\\win11\\source\\repos\\ef_core_practice_api\\ef_core_practice_api\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|solutionrelative:ef_core_practice_api\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|c:\\users\\win11\\source\\repos\\ef_core_practice_api\\ef_core_practice_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|solutionrelative:ef_core_practice_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|c:\\users\\win11\\source\\repos\\ef_core_practice_api\\ef_core_practice_api\\model\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\.gitignore",
+              "RelativeDocumentMoniker": "EF_core_practice_API\\.gitignore",
+              "ToolTip": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\.gitignore",
+              "RelativeToolTip": "EF_core_practice_API\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-12T04:32:01.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Model\\DBContext\\AppDbContext.cs",
               "RelativeDocumentMoniker": "EF_core_practice_API\\Model\\DBContext\\AppDbContext.cs",
@@ -58,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Model\\Product.cs",
               "RelativeDocumentMoniker": "EF_core_practice_API\\Model\\Product.cs",
@@ -66,38 +83,37 @@
               "RelativeToolTip": "EF_core_practice_API\\Model\\Product.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T17:15:49.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T17:15:49.907Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Program.cs",
               "RelativeDocumentMoniker": "EF_core_practice_API\\Program.cs",
               "ToolTip": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Program.cs",
               "RelativeToolTip": "EF_core_practice_API\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAqwB0AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T16:39:37.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "EF_core_practice_API\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "EF_core_practice_API\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBQAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T18:15:23.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EF_core_practice_API",
               "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\EF_core_practice_API.csproj",
               "RelativeDocumentMoniker": "EF_core_practice_API\\EF_core_practice_API.csproj",
@@ -108,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\appsettings.json",
               "RelativeDocumentMoniker": "EF_core_practice_API\\appsettings.json",
@@ -120,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "EF_core_practice_API\\Controllers\\WeatherForecastController.cs",
@@ -132,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "EF_core_practice_API\\Properties\\launchSettings.json",

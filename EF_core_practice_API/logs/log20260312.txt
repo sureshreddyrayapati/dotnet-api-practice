@@ -1,0 +1,341 @@
+2026-03-12 09:50:05.963 +05:30 [INF] Now listening on: https://localhost:7234
+2026-03-12 09:50:06.027 +05:30 [INF] Now listening on: http://localhost:5069
+2026-03-12 09:50:06.224 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-12 09:50:06.246 +05:30 [INF] Hosting environment: Development
+2026-03-12 09:50:06.249 +05:30 [INF] Content root path: C:\Users\WIN11\source\repos\EF_core_practice_API\EF_core_practice_API
+2026-03-12 09:50:08.790 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/ - null null
+2026-03-12 09:50:09.403 +05:30 [INF] Request started GET /
+2026-03-12 09:50:09.415 +05:30 [INF] Request finished GET / -> 404 in 15 ms
+2026-03-12 09:50:09.444 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/ - 404 null null 681.4071ms
+2026-03-12 09:50:09.530 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7234/, Response status code: 404
+2026-03-12 09:50:20.660 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.html - null null
+2026-03-12 09:50:20.811 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.html - 304 null null 151.7312ms
+2026-03-12 09:50:20.836 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.css - null null
+2026-03-12 09:50:20.837 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.js - null null
+2026-03-12 09:50:20.843 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-12 09:50:20.836 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui-bundle.js - null null
+2026-03-12 09:50:20.867 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.js - 304 null null 30.0771ms
+2026-03-12 09:50:20.836 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui.css - null null
+2026-03-12 09:50:20.837 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-12 09:50:20.852 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/_vs/browserLink - null null
+2026-03-12 09:50:20.893 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.css - 304 null null 56.5003ms
+2026-03-12 09:50:20.894 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui-bundle.js - 304 null null 57.6697ms
+2026-03-12 09:50:20.910 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - 200 14945 application/javascript; charset=utf-8 72.6685ms
+2026-03-12 09:50:20.910 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui.css - 304 null null 74.1059ms
+2026-03-12 09:50:20.920 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui-standalone-preset.js - 304 null null 82.8029ms
+2026-03-12 09:50:21.078 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/_vs/browserLink - 200 null text/javascript; charset=UTF-8 225.5091ms
+2026-03-12 09:50:21.246 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - null null
+2026-03-12 09:50:21.283 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 36.9726ms
+2026-03-12 09:50:21.291 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/favicon-32x32.png - null null
+2026-03-12 09:50:21.302 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/favicon-32x32.png - 304 null null 11.4679ms
+2026-03-12 09:50:30.485 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/Products?pageNumber=1&pageSize=10 - null null
+2026-03-12 09:50:30.502 +05:30 [INF] Request started GET /api/Products
+2026-03-12 09:50:30.508 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:50:30.553 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-12 09:50:33.210 +05:30 [INF] Executed DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-12 09:50:33.264 +05:30 [INF] fetching All Products
+2026-03-12 09:50:33.418 +05:30 [INF] Executed DbCommand (48ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-03-12 09:50:33.435 +05:30 [INF] Fetched 10 products for page 1
+2026-03-12 09:50:33.456 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-12 09:50:33.494 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 2928.1965ms
+2026-03-12 09:50:33.501 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:50:33.506 +05:30 [INF] Request finished GET /api/Products -> 200 in 3003 ms
+2026-03-12 09:50:33.525 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/Products?pageNumber=1&pageSize=10 - 200 null application/json; charset=utf-8 3039.9029ms
+2026-03-12 09:53:22.685 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products - null null
+2026-03-12 09:53:22.710 +05:30 [INF] Request started GET /api/products
+2026-03-12 09:53:22.717 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:53:22.723 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-12 09:53:22.795 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-12 09:53:22.804 +05:30 [INF] fetching All Products
+2026-03-12 09:53:22.816 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-03-12 09:53:22.823 +05:30 [INF] Fetched 10 products for page 1
+2026-03-12 09:53:22.828 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-12 09:53:22.838 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 104.3263ms
+2026-03-12 09:53:22.844 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:53:22.849 +05:30 [INF] Request finished GET /api/products -> 200 in 138 ms
+2026-03-12 09:53:22.858 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products - 200 null application/json; charset=utf-8 173.09ms
+2026-03-12 09:53:22.904 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/favicon.ico - null null
+2026-03-12 09:53:22.914 +05:30 [INF] Request started GET /favicon.ico
+2026-03-12 09:53:22.918 +05:30 [INF] Request finished GET /favicon.ico -> 404 in 4 ms
+2026-03-12 09:53:22.924 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/favicon.ico - 404 0 null 19.9942ms
+2026-03-12 09:53:22.933 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7234/favicon.ico, Response status code: 404
+2026-03-12 09:53:35.868 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products - null null
+2026-03-12 09:53:35.880 +05:30 [INF] Request started GET /api/products
+2026-03-12 09:53:35.892 +05:30 [INF] CORS policy execution successful.
+2026-03-12 09:53:35.898 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:53:35.903 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-12 09:53:36.108 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-12 09:53:36.113 +05:30 [INF] fetching All Products
+2026-03-12 09:53:36.119 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-03-12 09:53:36.126 +05:30 [INF] Fetched 10 products for page 1
+2026-03-12 09:53:36.128 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-12 09:53:36.134 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 223.3711ms
+2026-03-12 09:53:36.137 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products - null null
+2026-03-12 09:53:36.139 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:53:36.144 +05:30 [INF] Request started GET /api/products
+2026-03-12 09:53:36.146 +05:30 [INF] Request finished GET /api/products -> 200 in 265 ms
+2026-03-12 09:53:36.149 +05:30 [INF] CORS policy execution successful.
+2026-03-12 09:53:36.152 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products - 200 null application/json; charset=utf-8 283.5445ms
+2026-03-12 09:53:36.154 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:53:36.164 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-12 09:53:36.177 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-12 09:53:36.186 +05:30 [INF] fetching All Products
+2026-03-12 09:53:36.192 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-03-12 09:53:36.201 +05:30 [INF] Fetched 10 products for page 1
+2026-03-12 09:53:36.203 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-12 09:53:36.207 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 34.5138ms
+2026-03-12 09:53:36.211 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:53:36.213 +05:30 [INF] Request finished GET /api/products -> 200 in 68 ms
+2026-03-12 09:53:36.217 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products - 200 null application/json; charset=utf-8 80.8158ms
+2026-03-12 09:55:31.465 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products - null null
+2026-03-12 09:55:31.495 +05:30 [INF] Request started GET /api/products
+2026-03-12 09:55:31.507 +05:30 [INF] CORS policy execution successful.
+2026-03-12 09:55:31.514 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:55:31.524 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-12 09:55:31.541 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-12 09:55:31.547 +05:30 [INF] fetching All Products
+2026-03-12 09:55:31.553 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-03-12 09:55:31.559 +05:30 [INF] Fetched 10 products for page 1
+2026-03-12 09:55:31.560 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-12 09:55:31.563 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 28.6932ms
+2026-03-12 09:55:31.566 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products - null null
+2026-03-12 09:55:31.568 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:55:31.572 +05:30 [INF] Request started GET /api/products
+2026-03-12 09:55:31.574 +05:30 [INF] Request finished GET /api/products -> 200 in 79 ms
+2026-03-12 09:55:31.576 +05:30 [INF] CORS policy execution successful.
+2026-03-12 09:55:31.579 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products - 200 null application/json; charset=utf-8 113.9725ms
+2026-03-12 09:55:31.586 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:55:31.595 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-12 09:55:31.603 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-12 09:55:31.609 +05:30 [INF] fetching All Products
+2026-03-12 09:55:31.613 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-03-12 09:55:31.619 +05:30 [INF] Fetched 10 products for page 1
+2026-03-12 09:55:31.621 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-12 09:55:31.624 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 24.1736ms
+2026-03-12 09:55:31.629 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:55:31.630 +05:30 [INF] Request finished GET /api/products -> 200 in 57 ms
+2026-03-12 09:55:31.633 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products - 200 null application/json; charset=utf-8 67.1188ms
+2026-03-12 09:55:50.065 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products - null null
+2026-03-12 09:55:50.074 +05:30 [INF] Request started GET /api/products
+2026-03-12 09:55:50.078 +05:30 [INF] CORS policy execution successful.
+2026-03-12 09:55:50.081 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:55:50.085 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-12 09:55:50.101 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-12 09:55:50.109 +05:30 [INF] fetching All Products
+2026-03-12 09:55:50.122 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-03-12 09:55:50.130 +05:30 [INF] Fetched 10 products for page 1
+2026-03-12 09:55:50.136 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-12 09:55:50.144 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 52.6512ms
+2026-03-12 09:55:50.149 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products - null null
+2026-03-12 09:55:50.151 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:55:50.163 +05:30 [INF] Request started GET /api/products
+2026-03-12 09:55:50.168 +05:30 [INF] Request finished GET /api/products -> 200 in 93 ms
+2026-03-12 09:55:50.172 +05:30 [INF] CORS policy execution successful.
+2026-03-12 09:55:50.176 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products - 200 null application/json; charset=utf-8 111.7822ms
+2026-03-12 09:55:50.179 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:55:50.193 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-12 09:55:50.203 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-12 09:55:50.207 +05:30 [INF] fetching All Products
+2026-03-12 09:55:50.211 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-03-12 09:55:50.217 +05:30 [INF] Fetched 10 products for page 1
+2026-03-12 09:55:50.221 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-12 09:55:50.226 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 26.5117ms
+2026-03-12 09:55:50.231 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:55:50.232 +05:30 [INF] Request finished GET /api/products -> 200 in 69 ms
+2026-03-12 09:55:50.239 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products - 200 null application/json; charset=utf-8 90.3032ms
+2026-03-12 09:55:52.571 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products - null null
+2026-03-12 09:55:52.580 +05:30 [INF] Request started GET /api/products
+2026-03-12 09:55:52.584 +05:30 [INF] CORS policy execution successful.
+2026-03-12 09:55:52.588 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:55:52.592 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-12 09:55:52.605 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-12 09:55:52.615 +05:30 [INF] fetching All Products
+2026-03-12 09:55:52.621 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-03-12 09:55:52.660 +05:30 [INF] Fetched 10 products for page 1
+2026-03-12 09:55:52.664 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-12 09:55:52.671 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 70.6524ms
+2026-03-12 09:55:52.676 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products - null null
+2026-03-12 09:55:52.677 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:55:52.689 +05:30 [INF] Request finished GET /api/products -> 200 in 108 ms
+2026-03-12 09:55:52.686 +05:30 [INF] Request started GET /api/products
+2026-03-12 09:55:52.695 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products - 200 null application/json; charset=utf-8 123.7427ms
+2026-03-12 09:55:52.698 +05:30 [INF] CORS policy execution successful.
+2026-03-12 09:55:52.714 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:55:52.719 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-12 09:55:52.727 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-12 09:55:52.738 +05:30 [INF] fetching All Products
+2026-03-12 09:55:52.743 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-03-12 09:55:52.753 +05:30 [INF] Fetched 10 products for page 1
+2026-03-12 09:55:52.758 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-12 09:55:52.764 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 39.8122ms
+2026-03-12 09:55:52.769 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:55:52.773 +05:30 [INF] Request finished GET /api/products -> 200 in 87 ms
+2026-03-12 09:55:52.781 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products - 200 null application/json; charset=utf-8 105.4765ms
+2026-03-12 09:58:44.074 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products - null null
+2026-03-12 09:58:44.086 +05:30 [INF] Request started GET /api/products
+2026-03-12 09:58:44.090 +05:30 [INF] CORS policy execution successful.
+2026-03-12 09:58:44.094 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:58:44.099 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-12 09:58:44.118 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-12 09:58:44.127 +05:30 [INF] fetching All Products
+2026-03-12 09:58:44.136 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-03-12 09:58:44.146 +05:30 [INF] Fetched 10 products for page 1
+2026-03-12 09:58:44.152 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-12 09:58:44.156 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 50.7489ms
+2026-03-12 09:58:44.160 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products - null null
+2026-03-12 09:58:44.162 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:58:44.169 +05:30 [INF] Request started GET /api/products
+2026-03-12 09:58:44.171 +05:30 [INF] Request finished GET /api/products -> 200 in 85 ms
+2026-03-12 09:58:44.173 +05:30 [INF] CORS policy execution successful.
+2026-03-12 09:58:44.175 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products - 200 null application/json; charset=utf-8 101.8241ms
+2026-03-12 09:58:44.190 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:58:44.203 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-12 09:58:44.208 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-12 09:58:44.214 +05:30 [INF] fetching All Products
+2026-03-12 09:58:44.217 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-03-12 09:58:44.221 +05:30 [INF] Fetched 10 products for page 1
+2026-03-12 09:58:44.223 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-12 09:58:44.225 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 19.0906ms
+2026-03-12 09:58:44.230 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:58:44.232 +05:30 [INF] Request finished GET /api/products -> 200 in 63 ms
+2026-03-12 09:58:44.235 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products - 200 null application/json; charset=utf-8 75.4264ms
+2026-03-12 09:58:53.371 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products - null null
+2026-03-12 09:58:53.381 +05:30 [INF] Request started GET /api/products
+2026-03-12 09:58:53.384 +05:30 [INF] CORS policy execution successful.
+2026-03-12 09:58:53.387 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:58:53.390 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-12 09:58:53.400 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-12 09:58:53.410 +05:30 [INF] fetching All Products
+2026-03-12 09:58:53.416 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-03-12 09:58:53.427 +05:30 [INF] Fetched 10 products for page 1
+2026-03-12 09:58:53.432 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-12 09:58:53.440 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 43.9334ms
+2026-03-12 09:58:53.443 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products - null null
+2026-03-12 09:58:53.445 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:58:53.454 +05:30 [INF] Request started GET /api/products
+2026-03-12 09:58:53.458 +05:30 [INF] Request finished GET /api/products -> 200 in 77 ms
+2026-03-12 09:58:53.462 +05:30 [INF] CORS policy execution successful.
+2026-03-12 09:58:53.470 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products - 200 null application/json; charset=utf-8 98.8548ms
+2026-03-12 09:58:53.473 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:58:53.491 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-12 09:58:53.501 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-12 09:58:53.510 +05:30 [INF] fetching All Products
+2026-03-12 09:58:53.514 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-03-12 09:58:53.525 +05:30 [INF] Fetched 10 products for page 1
+2026-03-12 09:58:53.530 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-12 09:58:53.536 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 38.1724ms
+2026-03-12 09:58:53.541 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-12 09:58:53.546 +05:30 [INF] Request finished GET /api/products -> 200 in 91 ms
+2026-03-12 09:58:53.553 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products - 200 null application/json; charset=utf-8 110.2079ms
