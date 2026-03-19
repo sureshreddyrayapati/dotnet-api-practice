@@ -1,5 +1,6 @@
 ﻿using EF_core_practice_API.Model;
 using EF_core_practice_API.Model.DBContext;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -7,7 +8,8 @@ using Microsoft.EntityFrameworkCore;
 namespace EF_core_practice_API.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]       
+    [ApiController]
+    [Authorize]
     public class ProductsController : ControllerBase
     {
         private readonly AppDbContext _context;

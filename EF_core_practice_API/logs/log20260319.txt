@@ -1,0 +1,352 @@
+2026-03-19 22:36:03.739 +05:30 [INF] User profile is available. Using 'C:\Users\WIN11\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-19 22:36:04.425 +05:30 [INF] Now listening on: https://localhost:7234
+2026-03-19 22:36:04.431 +05:30 [INF] Now listening on: http://localhost:5069
+2026-03-19 22:36:04.949 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-19 22:36:04.953 +05:30 [INF] Hosting environment: Development
+2026-03-19 22:36:04.957 +05:30 [INF] Content root path: C:\Users\WIN11\source\repos\EF_core_practice_API\EF_core_practice_API
+2026-03-19 22:36:05.723 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/ - null null
+2026-03-19 22:36:06.195 +05:30 [INF] Request started GET /
+2026-03-19 22:36:06.390 +05:30 [INF] Request finished GET / -> 404 in 201 ms
+2026-03-19 22:36:06.412 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/ - 404 null null 713.273ms
+2026-03-19 22:36:06.432 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7234/, Response status code: 404
+2026-03-19 22:36:10.046 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger - null null
+2026-03-19 22:36:10.073 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger - 301 null null 26.3084ms
+2026-03-19 22:36:10.089 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.html - null null
+2026-03-19 22:36:10.282 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.html - 200 null text/html;charset=utf-8 192.3205ms
+2026-03-19 22:36:10.291 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui.css - null null
+2026-03-19 22:36:10.291 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.css - null null
+2026-03-19 22:36:10.292 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui-bundle.js - null null
+2026-03-19 22:36:10.353 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.css - 200 152 text/css 62.385ms
+2026-03-19 22:36:10.359 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-19 22:36:10.391 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui.css - 200 26388 text/css 100.287ms
+2026-03-19 22:36:10.418 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui-standalone-preset.js - 200 76581 text/javascript 58.6157ms
+2026-03-19 22:36:10.427 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/index.js - null null
+2026-03-19 22:36:10.427 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/swagger-ui-bundle.js - 200 417806 text/javascript 135.5753ms
+2026-03-19 22:36:10.454 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/index.js - 200 null application/javascript;charset=utf-8 26.3555ms
+2026-03-19 22:36:10.457 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-19 22:36:10.462 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/_vs/browserLink - null null
+2026-03-19 22:36:10.499 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/_framework/aspnetcore-browser-refresh.js - 200 14945 application/javascript; charset=utf-8 42.6626ms
+2026-03-19 22:36:10.703 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/_vs/browserLink - 200 null text/javascript; charset=UTF-8 241.7864ms
+2026-03-19 22:36:10.833 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - null null
+2026-03-19 22:36:10.866 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/swagger/favicon-32x32.png - null null
+2026-03-19 22:36:10.877 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 44.5425ms
+2026-03-19 22:36:10.883 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/swagger/favicon-32x32.png - 200 628 image/png 16.4369ms
+2026-03-19 22:36:45.960 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7234/api/Auth/login - application/json 47
+2026-03-19 22:36:45.975 +05:30 [INF] Request started POST /api/Auth/login
+2026-03-19 22:36:45.986 +05:30 [INF] CORS policy execution failed.
+2026-03-19 22:36:45.991 +05:30 [INF] Request origin https://localhost:7234 does not have permission to access the resource.
+2026-03-19 22:36:46.008 +05:30 [INF] Executing endpoint 'AuthController.Login (EF_core_practice_API)'
+2026-03-19 22:36:46.063 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(EF_core_practice_API.Model.LoginRequest) on controller AuthController (EF_core_practice_API).
+2026-03-19 22:37:11.087 +05:30 [INF] Executed action AuthController.Login (EF_core_practice_API) in 25005.648ms
+2026-03-19 22:37:11.095 +05:30 [INF] Executed endpoint 'AuthController.Login (EF_core_practice_API)'
+2026-03-19 22:37:11.202 +05:30 [ERR] Unhandled exception occurred at /api/Auth/login
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '168' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at AuthController.Login(LoginRequest request) in C:\Users\WIN11\source\repos\EF_core_practice_API\EF_core_practice_API\Controllers\AuthController.cs:line 45
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EF_core_practice_API.middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\WIN11\source\repos\EF_core_practice_API\EF_core_practice_API\middlewares\RequestLoggingMiddleware.cs:line 26
+   at EF_core_practice_API.middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\WIN11\source\repos\EF_core_practice_API\EF_core_practice_API\middlewares\GlobalExceptionMiddleware.cs:line 24
+2026-03-19 22:37:11.296 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7234/api/Auth/login - 500 null application/json 25335.8477ms
+2026-03-19 22:37:36.484 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/Products?pageNumber=1&pageSize=10 - null null
+2026-03-19 22:37:36.497 +05:30 [INF] Request started GET /api/Products
+2026-03-19 22:37:36.524 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-19 22:37:36.539 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-19 22:37:36.544 +05:30 [INF] Request finished GET /api/Products -> 401 in 46 ms
+2026-03-19 22:37:36.553 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/Products?pageNumber=1&pageSize=10 - 401 0 null 69.3109ms
+2026-03-19 22:40:12.919 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7234/api/Products - null 0
+2026-03-19 22:40:12.930 +05:30 [INF] Request started PUT /api/Products
+2026-03-19 22:40:12.935 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-03-19 22:40:12.939 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-03-19 22:40:12.943 +05:30 [INF] Request finished PUT /api/Products -> 405 in 13 ms
+2026-03-19 22:40:12.950 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7234/api/Products - 405 0 null 31.2112ms
+2026-03-19 22:40:41.401 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7234/api/Auth/login - null 0
+2026-03-19 22:40:41.410 +05:30 [INF] Request started PUT /api/Auth/login
+2026-03-19 22:40:41.415 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-03-19 22:40:41.419 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-03-19 22:40:41.425 +05:30 [INF] Request finished PUT /api/Auth/login -> 405 in 14 ms
+2026-03-19 22:40:41.432 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7234/api/Auth/login - 405 0 null 31.7295ms
+2026-03-19 22:42:17.350 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7234/api/Auth/login - null 0
+2026-03-19 22:42:17.361 +05:30 [INF] Request started POST /api/Auth/login
+2026-03-19 22:42:17.367 +05:30 [INF] Executing endpoint 'AuthController.Login (EF_core_practice_API)'
+2026-03-19 22:42:17.371 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(EF_core_practice_API.Model.LoginRequest) on controller AuthController (EF_core_practice_API).
+2026-03-19 22:42:17.399 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2026-03-19 22:42:17.438 +05:30 [INF] Executed action AuthController.Login (EF_core_practice_API) in 59.407ms
+2026-03-19 22:42:17.444 +05:30 [INF] Executed endpoint 'AuthController.Login (EF_core_practice_API)'
+2026-03-19 22:42:17.449 +05:30 [INF] Request finished POST /api/Auth/login -> 415 in 87 ms
+2026-03-19 22:42:17.455 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7234/api/Auth/login - 415 null application/problem+json; charset=utf-8 104.661ms
+2026-03-19 22:43:19.982 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7234/api/Auth/login - application/json 50
+2026-03-19 22:43:19.993 +05:30 [INF] Request started POST /api/Auth/login
+2026-03-19 22:43:19.998 +05:30 [INF] Executing endpoint 'AuthController.Login (EF_core_practice_API)'
+2026-03-19 22:43:20.002 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(EF_core_practice_API.Model.LoginRequest) on controller AuthController (EF_core_practice_API).
+2026-03-19 22:44:43.211 +05:30 [INF] User profile is available. Using 'C:\Users\WIN11\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-19 22:44:44.003 +05:30 [INF] Now listening on: https://localhost:7234
+2026-03-19 22:44:44.011 +05:30 [INF] Now listening on: http://localhost:5069
+2026-03-19 22:44:44.259 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-19 22:44:44.263 +05:30 [INF] Hosting environment: Development
+2026-03-19 22:44:44.268 +05:30 [INF] Content root path: C:\Users\WIN11\source\repos\EF_core_practice_API\EF_core_practice_API
+2026-03-19 22:44:44.982 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/ - null null
+2026-03-19 22:44:45.329 +05:30 [INF] Request started GET /
+2026-03-19 22:44:45.498 +05:30 [INF] Request finished GET / -> 404 in 171 ms
+2026-03-19 22:44:45.524 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/ - 404 null null 558.1386ms
+2026-03-19 22:44:45.542 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7234/, Response status code: 404
+2026-03-19 22:44:51.110 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7234/api/Auth/login - application/json 50
+2026-03-19 22:44:51.135 +05:30 [INF] Request started POST /api/Auth/login
+2026-03-19 22:44:51.163 +05:30 [INF] Executing endpoint 'AuthController.Login (EF_core_practice_API)'
+2026-03-19 22:44:51.227 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(EF_core_practice_API.Model.LoginRequest) on controller AuthController (EF_core_practice_API).
+2026-03-19 22:44:51.409 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-19 22:44:51.440 +05:30 [INF] Executed action AuthController.Login (EF_core_practice_API) in 187.4015ms
+2026-03-19 22:44:51.447 +05:30 [INF] Executed endpoint 'AuthController.Login (EF_core_practice_API)'
+2026-03-19 22:44:51.453 +05:30 [INF] Request finished POST /api/Auth/login -> 200 in 317 ms
+2026-03-19 22:44:51.462 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7234/api/Auth/login - 200 null application/json; charset=utf-8 351.5939ms
+2026-03-19 22:51:22.658 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products - application/json 50
+2026-03-19 22:51:22.678 +05:30 [INF] Request started GET /api/products
+2026-03-19 22:51:22.826 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-19 22:51:22.863 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-19 22:51:27.598 +05:30 [INF] Executed DbCommand (182ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-19 22:51:27.700 +05:30 [INF] fetching All Products
+2026-03-19 22:51:28.150 +05:30 [INF] Executed DbCommand (135ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-03-19 22:51:28.180 +05:30 [INF] Fetched 10 products for page 1
+2026-03-19 22:51:28.198 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-19 22:51:28.241 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 5366.6018ms
+2026-03-19 22:51:28.250 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-19 22:51:28.261 +05:30 [INF] Request finished GET /api/products -> 200 in 5582 ms
+2026-03-19 22:51:28.307 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products - 200 null application/json; charset=utf-8 5648.7605ms
+2026-03-19 22:53:35.823 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products?pageNumber=2&pageSize=20 - application/json 50
+2026-03-19 22:53:35.838 +05:30 [INF] Request started GET /api/products
+2026-03-19 22:53:35.852 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-19 22:53:35.858 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-19 22:53:35.935 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-19 22:53:35.944 +05:30 [INF] fetching All Products
+2026-03-19 22:53:36.000 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p ROWS ONLY
+2026-03-19 22:53:36.013 +05:30 [INF] Fetched 20 products for page 2
+2026-03-19 22:53:36.019 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-19 22:53:36.029 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 160.7259ms
+2026-03-19 22:53:36.037 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-19 22:53:36.043 +05:30 [INF] Request finished GET /api/products -> 200 in 204 ms
+2026-03-19 22:53:36.055 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products?pageNumber=2&pageSize=20 - 200 null application/json; charset=utf-8 231.7992ms
+2026-03-19 22:54:07.970 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products?pageNumber=2&pageSize=20 - application/json 50
+2026-03-19 22:54:07.984 +05:30 [INF] Request started GET /api/products
+2026-03-19 22:54:07.996 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-19 22:54:08.016 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-19 22:54:08.022 +05:30 [INF] Request finished GET /api/products -> 401 in 38 ms
+2026-03-19 22:54:08.033 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products?pageNumber=2&pageSize=20 - 401 0 null 62.606ms
+2026-03-19 22:54:32.086 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products?pageNumber=2&pageSize=20 - application/json 50
+2026-03-19 22:54:32.098 +05:30 [INF] Request started GET /api/products
+2026-03-19 22:54:32.105 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-19 22:54:32.111 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-19 22:54:32.401 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-19 22:54:32.413 +05:30 [INF] fetching All Products
+2026-03-19 22:54:32.443 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p ROWS ONLY
+2026-03-19 22:54:32.455 +05:30 [INF] Fetched 20 products for page 2
+2026-03-19 22:54:32.462 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-19 22:54:32.470 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 349.3514ms
+2026-03-19 22:54:32.486 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-19 22:54:32.492 +05:30 [INF] Request finished GET /api/products -> 200 in 393 ms
+2026-03-19 22:54:32.502 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products?pageNumber=2&pageSize=20 - 200 null application/json; charset=utf-8 416.2931ms
+2026-03-19 22:55:18.848 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products?pageNumber=2&pageSize=20 - application/json 50
+2026-03-19 22:55:18.860 +05:30 [INF] Request started GET /api/products
+2026-03-19 22:55:18.867 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-19 22:55:18.873 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-19 22:55:18.879 +05:30 [INF] Request finished GET /api/products -> 401 in 18 ms
+2026-03-19 22:55:18.888 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products?pageNumber=2&pageSize=20 - 401 0 null 40.9409ms
+2026-03-19 22:55:35.068 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7234/api/products?pageNumber=2&pageSize=20 - application/json 50
+2026-03-19 22:55:35.081 +05:30 [INF] Request started GET /api/products
+2026-03-19 22:55:35.085 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-19 22:55:35.090 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Nullable`1[System.Decimal], System.Nullable`1[System.Decimal], Int32, Int32) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-19 22:55:35.126 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+2026-03-19 22:55:35.137 +05:30 [INF] fetching All Products
+2026-03-19 22:55:35.148 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[IsDeleted], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p ROWS ONLY
+2026-03-19 22:55:35.159 +05:30 [INF] Fetched 20 products for page 2
+2026-03-19 22:55:35.166 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`5[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[EF_core_practice_API.Model.Product, EF_core_practice_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-19 22:55:35.174 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API) in 74.1774ms
+2026-03-19 22:55:35.181 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.GetAll (EF_core_practice_API)'
+2026-03-19 22:55:35.187 +05:30 [INF] Request finished GET /api/products -> 200 in 106 ms
+2026-03-19 22:55:35.198 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7234/api/products?pageNumber=2&pageSize=20 - 200 null application/json; charset=utf-8 130.4012ms
+2026-03-19 22:58:19.479 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7234/api/products - application/json 116
+2026-03-19 22:58:19.491 +05:30 [INF] Request started POST /api/products
+2026-03-19 22:58:19.498 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.Create (EF_core_practice_API)'
+2026-03-19 22:58:19.524 +05:30 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(EF_core_practice_API.Model.Product) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-19 22:58:20.140 +05:30 [INF] Executed DbCommand (71ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Boolean), @p2='?' (Size = 100), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Description], [IsDeleted], [Name], [Price], [Stock])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-03-19 22:58:20.263 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'EF_core_practice_API.Model.DBContext.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Products' with unique index 'IX_Products_Name'. The duplicate key value is (Laptop).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:82899574-b0f6-43de-8d4a-0eb00da6fe26
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Products' with unique index 'IX_Products_Name'. The duplicate key value is (Laptop).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:82899574-b0f6-43de-8d4a-0eb00da6fe26
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2026-03-19 22:58:31.168 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.Create (EF_core_practice_API) in 11634.5065ms
+2026-03-19 22:58:31.177 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.Create (EF_core_practice_API)'
+2026-03-19 22:58:31.497 +05:30 [ERR] Database error occurred at /api/products
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Products' with unique index 'IX_Products_Name'. The duplicate key value is (Laptop).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:82899574-b0f6-43de-8d4a-0eb00da6fe26
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EF_core_practice_API.Controllers.ProductsController.Create(Product product) in C:\Users\WIN11\source\repos\EF_core_practice_API\EF_core_practice_API\Controllers\ProductsController.cs:line 97
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EF_core_practice_API.middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\WIN11\source\repos\EF_core_practice_API\EF_core_practice_API\middlewares\RequestLoggingMiddleware.cs:line 26
+   at EF_core_practice_API.middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\WIN11\source\repos\EF_core_practice_API\EF_core_practice_API\middlewares\GlobalExceptionMiddleware.cs:line 24
+2026-03-19 22:58:31.568 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7234/api/products - 409 null application/json 12089.1673ms
+2026-03-19 23:00:28.085 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7234/api/products - application/json 119
+2026-03-19 23:00:28.096 +05:30 [INF] Request started POST /api/products
+2026-03-19 23:00:28.102 +05:30 [INF] Executing endpoint 'EF_core_practice_API.Controllers.ProductsController.Create (EF_core_practice_API)'
+2026-03-19 23:00:28.106 +05:30 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(EF_core_practice_API.Model.Product) on controller EF_core_practice_API.Controllers.ProductsController (EF_core_practice_API).
+2026-03-19 23:00:28.146 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Boolean), @p2='?' (Size = 100), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Description], [IsDeleted], [Name], [Price], [Stock])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-03-19 23:00:28.224 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'EF_core_practice_API.Model.Product'.
+2026-03-19 23:00:28.285 +05:30 [INF] Executed action EF_core_practice_API.Controllers.ProductsController.Create (EF_core_practice_API) in 170.474ms
+2026-03-19 23:00:28.291 +05:30 [INF] Executed endpoint 'EF_core_practice_API.Controllers.ProductsController.Create (EF_core_practice_API)'
+2026-03-19 23:00:28.296 +05:30 [INF] Request finished POST /api/products -> 201 in 199 ms
+2026-03-19 23:00:28.303 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7234/api/products - 201 null application/json; charset=utf-8 218.2724ms

@@ -1,10 +1,11 @@
 using EF_core_practice_API.middlewares;
 using EF_core_practice_API.Model.DBContext;
-using Microsoft.EntityFrameworkCore;
-using Serilog;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Serilog;
 using System.Text;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +20,7 @@ builder.Host.UseSerilog();
 
 //JWT token
 var jwtSettings = builder.Configuration.GetSection("Jwt");
+var key = jwtSettings["Key"] ?? throw new Exception("JWT Key missing");
 builder.Services.AddAuthentication(option =>
 {
     option.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -35,11 +37,11 @@ builder.Services.AddAuthentication(option =>
 
             ValidIssuer = jwtSettings["Issuer"],
             ValidAudience = jwtSettings["Audience"],
-            IssuerSigningKey = new SymmetricSecurityKey(
-            Encoding.UTF8.GetBytes(jwtSettings["Key"]))
-            
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key))
+
         };
     });
+builder.Services.AddAuthorization();
 
 //add cors
 
