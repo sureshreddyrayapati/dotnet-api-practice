@@ -6,6 +6,7 @@ namespace EF_core_practice_API.Model.DBContext
         public AppDbContext(DbContextOptions<AppDbContext>options):base(options) { }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<Users> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -7,12 +7,28 @@
       "RelativeMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|solutionrelative:ef_core_practice_api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|c:\\users\\win11\\source\\repos\\ef_core_practice_api\\ef_core_practice_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|solutionrelative:ef_core_practice_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|c:\\users\\win11\\source\\repos\\ef_core_practice_api\\ef_core_practice_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|solutionrelative:ef_core_practice_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Migrations\\20260321142701_initaial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EF_core_practice_API\\Migrations\\20260321142701_initaial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|c:\\users\\win11\\source\\repos\\ef_core_practice_api\\ef_core_practice_api\\model\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|solutionrelative:ef_core_practice_api\\model\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|c:\\users\\win11\\source\\repos\\ef_core_practice_api\\ef_core_practice_api\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|solutionrelative:ef_core_practice_api\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Migrations\\20260321141122_AddedUserTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EF_core_practice_API\\Migrations\\20260321141122_AddedUserTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|c:\\users\\win11\\source\\repos\\ef_core_practice_api\\ef_core_practice_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|solutionrelative:ef_core_practice_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20BE179F-BEAB-00B4-1632-E43E611E6E24}|EF_core_practice_API\\EF_core_practice_API.csproj|c:\\users\\win11\\source\\repos\\ef_core_practice_api\\ef_core_practice_api\\model\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,45 +54,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Model\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "EF_core_practice_API\\Model\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Model\\LoginRequest.cs",
-              "RelativeToolTip": "EF_core_practice_API\\Model\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "20260321142701_initaial.cs",
+              "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Migrations\\20260321142701_initaial.cs",
+              "RelativeDocumentMoniker": "EF_core_practice_API\\Migrations\\20260321142701_initaial.cs",
+              "ToolTip": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Migrations\\20260321142701_initaial.cs",
+              "RelativeToolTip": "EF_core_practice_API\\Migrations\\20260321142701_initaial.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBQAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T16:57:46.648Z",
+              "WhenOpened": "2026-03-21T14:27:01.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Model\\DBContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EF_core_practice_API\\Model\\DBContext\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Model\\DBContext\\AppDbContext.cs",
+              "RelativeToolTip": "EF_core_practice_API\\Model\\DBContext\\AppDbContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T14:07:23.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Program.cs",
-              "RelativeDocumentMoniker": "EF_core_practice_API\\Program.cs",
-              "ToolTip": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Program.cs",
-              "RelativeToolTip": "EF_core_practice_API\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Model\\Users.cs",
+              "RelativeDocumentMoniker": "EF_core_practice_API\\Model\\Users.cs",
+              "ToolTip": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Model\\Users.cs",
+              "RelativeToolTip": "EF_core_practice_API\\Model\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T16:39:37.53Z",
+              "WhenOpened": "2026-03-21T14:02:06.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\appsettings.json",
-              "RelativeDocumentMoniker": "EF_core_practice_API\\appsettings.json",
-              "ToolTip": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\appsettings.json",
-              "RelativeToolTip": "EF_core_practice_API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-02T17:26:23.042Z",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EF_core_practice_API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EF_core_practice_API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T16:59:14.262Z",
               "EditorCaption": ""
             },
             {
@@ -87,27 +116,63 @@
               "RelativeDocumentMoniker": "EF_core_practice_API\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "EF_core_practice_API\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAADgv2QAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-19T17:01:23.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "EF_core_practice_API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "EF_core_practice_API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAqwCwAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "20260321141122_AddedUserTable.cs",
+              "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Migrations\\20260321141122_AddedUserTable.cs",
+              "RelativeDocumentMoniker": "EF_core_practice_API\\Migrations\\20260321141122_AddedUserTable.cs",
+              "ToolTip": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Migrations\\20260321141122_AddedUserTable.cs",
+              "RelativeToolTip": "EF_core_practice_API\\Migrations\\20260321141122_AddedUserTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T16:59:14.262Z",
+              "WhenOpened": "2026-03-21T14:11:22.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Program.cs",
+              "RelativeDocumentMoniker": "EF_core_practice_API\\Program.cs",
+              "ToolTip": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Program.cs",
+              "RelativeToolTip": "EF_core_practice_API\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T16:39:37.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Model\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "EF_core_practice_API\\Model\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Model\\LoginRequest.cs",
+              "RelativeToolTip": "EF_core_practice_API\\Model\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T16:57:46.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\appsettings.json",
+              "RelativeDocumentMoniker": "EF_core_practice_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\appsettings.json",
+              "RelativeToolTip": "EF_core_practice_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-02T17:26:23.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "EF_core_practice_API\\Controllers\\WeatherForecastController.cs",
@@ -115,12 +180,11 @@
               "RelativeToolTip": "EF_core_practice_API\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T17:13:53.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T17:13:53.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\WIN11\\source\\repos\\EF_core_practice_API\\EF_core_practice_API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "EF_core_practice_API\\Properties\\launchSettings.json",
@@ -128,8 +192,7 @@
               "RelativeToolTip": "EF_core_practice_API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-02T16:42:39.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T16:42:39.155Z"
             }
           ]
         }

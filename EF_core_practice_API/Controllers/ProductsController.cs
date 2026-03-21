@@ -9,7 +9,7 @@ namespace EF_core_practice_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    [Authorize(Roles ="Admin")]
     public class ProductsController : ControllerBase
     {
         private readonly AppDbContext _context;
